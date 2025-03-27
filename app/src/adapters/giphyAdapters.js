@@ -5,7 +5,7 @@ TODO:
 - Import the API Key from your config.js file
 - Complete each adapter function to fetch from the trending/ and search/ endpoints. See the README for the complete endpoint URLs that you will be fetching from.
 */
-import API_KEY from './config.js';
+import API_KEY from '../config.js';
 import { handleFetch } from './handleFetch.js';
 
 const baseUrl = `https://api.giphy.com/v1/gifs`;
